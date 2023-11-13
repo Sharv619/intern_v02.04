@@ -4,17 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prototype-1  Social Awareness</title>
-	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
   <link href="./style.css" rel="stylesheet">
+  <link href="./script.js" rel="script">
 	<header>
+		<!-- Navbar component -->
 		<nav>
 			<img class="logo" src="logo1.png" width="70" alt="Advanced Consulting Services logo">
 			<a href="#Home" class="futuristic-button">Home</a>
@@ -24,25 +19,31 @@
 				<button class="futuristic-button dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
 				  Login/Sign Up
 				</button>
-				<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-				  <li><a class="dropdown-item" href="#">Create campaign</a></li>
-				  <li><a class="dropdown-item" href="#">Manage Account</a></li>
-				  <li><a class="dropdown-item" href="#">Help</a></li>
-				  <li><a class="dropdown-item" href="#">Sign out</a></li>
-				</ul>
+				<div
+ 
+				class="dropdown-menu"
+				 
+				aria-labelledby="dropdownMenuButton">
+					<a class="dropdown-item" href="/create-campaign">Create Campaign</a>
+					<a class="dropdown-item" href="/manage-account">Manage Account</a>
+					<a class="dropdown-item" href="/help">Help</a>
+					<a class="dropdown-item" href="/sign-out">Sign Out</a>
+				  </div>
 			  </div>
 			  
 				</ul>
 			  </div>		  
 			</nav>
 
-	<!--Scrolll Widget -->
-	<div class="carousel">
-		<div class="carousel-inner" data-interval="5000">
-		  <div class="carousel-item active" style="background-image: url('img1.png')"></div>
-		  <div class="carousel-item" style="background-image: url('img0.jpg')"></div>
-		  <div class="carousel-item" style="background-image: url('img4.png')"></div>
-		</div>
+	<!--Scrolll Widget  component -->
+			<div class="carousel" data-interval="5000>
+				<div class="carousel-inner">
+				  <img class="carousel-item active" src="./images/img1.png" alt="1" />
+				  <img class="carousel-item" src="./images/img0.jpg" alt="2" />
+				  <img class="carousel-item" src="img4.png" alt="3" />
+				</div>
+			  
+					  
 		<a href="#" class="carousel-control-prev" role="button" data-slide="prev">
 		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 		  <span class="sr-only">Previous</span>
@@ -51,30 +52,11 @@
 		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
 		  <span class="sr-only">Next</span>
 		</a>
+	</div>
 	  </div>
 
 </section>
-	<!--tab for #search-->
-	<div class="carousel">
-		
-		<div class="carousel-tabs">
-		  <a href="#tab1"  class="futuristic-buttonMin">Healthcare</a>
-		  <a href="#tab2" class="futuristic-buttonMin" >Education</a>
-		  <a href="#tab3" class="futuristic-buttonMin" >Awarness</a>
-		  <a href="#tab4" class="futuristic-buttonMin">Educational</a>
-		  <input type="text" class="search-bar" placeholder="Search">
-	</div></div><
-	<div><p> weqwe</p></div>
-		  <div id="tab1" class="active">
-			<img src="img1.png" alt="This is an image" width="10%" height="10%">			<h3> Campaign 1</h3>
-			
-			<p></p>
-		  </div>
-		  <div id="tab2">
-		  </div>
-		  <div id="tab3">
-		  </div>
-		</div>
+	<!--Carousel Component-->
 
 	</div>
         <!--Homepage-->	

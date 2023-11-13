@@ -21,5 +21,5 @@ function App() {
     </div>
   );
 }
-
+console.log('App.js file');
 export default App;
