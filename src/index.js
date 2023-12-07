@@ -13,7 +13,7 @@ import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 
-root.render(
+ReactDOM.render(
   <React.StrictMode>
     <App />
     <Navbar />
