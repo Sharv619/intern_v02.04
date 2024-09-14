@@ -6,7 +6,7 @@ import Header from './components/Header';
 
 ReactDOM.render(
   <React.StrictMode>
-<Header/>
+<Header/>npm
 
   </React.StrictMode>
 );

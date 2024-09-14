@@ -7,14 +7,6 @@ body {
 .login-signup {
   cursor: pointer;
 }
-.dropdown {
-  display: none;
-}
-
-/* Show the dropdown when a member is logged in */
-.member-logged-in .dropdown {
-  display: block;
-}
 
 .login-signup:hover {
   color: #fff;
