@@ -19,3 +19,22 @@ function Header() {
 	);
 }
 export default Header;
+
+
+//Convert above code into functional components
+
+function Header() {
+	return (
+	<div> <header>HoodWatchers </header>
+	//Horizontal Line 
+	<hr 
+	style={{
+		color: color,
+		backgroundColor: color,
+		heightght: 5,
+	}}
+	 />
+	 </div>
+
+	);
+}
