@@ -1,6 +1,6 @@
 // Header.js
 import React from 'react';
-
+/*
 function Header() {
 	return (
 		<header>
@@ -18,8 +18,7 @@ function Header() {
 		</header>
 	);
 }
-export default Header;
-
+*/
 
 //Convert above code into functional components
 
@@ -31,10 +30,11 @@ function Header() {
 	style={{
 		color: color,
 		backgroundColor: color,
-		heightght: 5,
+		height: 5,
 	}}
 	 />
 	 </div>
 
 	);
 }
+export default Header;
